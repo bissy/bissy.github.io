@@ -1,16 +1,5 @@
 html {
   background: #f5f5f5;
-  font-size: clamp(16px, 1rem + (1vw - 7.27px) * 0.8174, 13px);
-  color: #222;
-  font-feature-settings: "pwid";
-  letter-spacing: 0.02em;
-  font-family: sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color: #eee;
-    background: #333;
-  }
 }
 
 * {
@@ -19,6 +8,17 @@ html {
 
 body {
   padding: 3em 1em;
+  font-size: clamp(16px, 1rem + (1vw - 7.27px) * 0.8174, 13px);
+  color: #222;
+  font-feature-settings: "pwid";
+  letter-spacing: 0.02em;
+  font-family: sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #eee;
+    background: #333;
+  }
 }
 
 p {

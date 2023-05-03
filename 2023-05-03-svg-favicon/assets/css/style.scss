@@ -1,5 +1,11 @@
 html{
     background: #f5f5f5;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 3em 1em;
     font-size:  clamp(16px, calc(1rem + ((1vw - 7.27px) * 0.8174)), 13px);
     color: #222;
     font-feature-settings: "pwid";
@@ -9,12 +15,6 @@ html{
         color: #eee;
         background: #333;
     }
-}
-*{
-    box-sizing: border-box;
-}
-body{
-    padding: 3em 1em;
 }
 p{
     margin: 0;
