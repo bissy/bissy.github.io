@@ -76,10 +76,35 @@
         <section>
             <h2>STEP5. ICOファイルを作成。</h2>
             <p>先ほどのSVGアイコンを元にICOファイルへ変換します。今回は<a href="https://cloudconvert.com/svg-to-ico" target="_blank">こちらのツール</a>を使います。32pxを指定して変換します。</p>
-                <figure>
-            <img src="assets/images/favicon.ico" alt="" width="32" height="32">
-            <figcaption>favicon.ico</figcaption>
-                </figure>
+            <figure>
+                <img src="/favicon.ico" alt="" width="32" height="32">
+                <figcaption>favicon.ico</figcaption>
+            </figure>
+        </section>
+
+        <section>
+            <h2>STEP6. headに以下のコードを挿入</h2>
+<pre><code>&lt;link rel=&quot;icon&quot; href=&quot;assets/images/icon.svg&quot; sizes=&quot;any&quot; type=&quot;image/svg+xml&quot;&gt;
+&lt;link rel=&quot;apple-touch-icon&quot; href=&quot;assets/images/apple-touch-icon.png&quot;&gt; &lt;!-- 180x180px --&gt;</code></pre>
+        </section>
+
+        <section>
+            <h2>STEP7. 各種ブラウザで確認して完了！</h2>
+            <p>今回のファビコンの各種ブラウザでの反映状況はこんな感じ（動画）。<wbr>ダークモードに切り替え→更新でファビコンが変わるのが分かります。</p>
+            <p>また、Android ChromeではSVGアイコンが反映されていますね！（Androidはいろんなパターンがあるようですが…）</p>
+            <p>ぜひお手持ちの端末で試して見てください😇</p>
+            <figure>
+                <video controls src="assets/images/favicon.mp4" width="784"></video>
+            <figcaption>Mac Chromeでダークモードの切り替え（かわいい！）</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/android.png" alt="" width="1080" height="2220">
+                <figcaption>Android Chromeからホーム画面に追加</figcaption>
+            </figure>
+            <figure>
+                <img src="assets/images/iphone.png" alt="" width="1125" height="2436">
+                <figcaption>iOS Safariからホーム画面に追加</figcaption>
+            </figure>
         </section>
     </article>
 
