@@ -4,6 +4,7 @@ html {
   color: #222;
   font-feature-settings: "pwid";
   letter-spacing: 0.02em;
+  font-family: sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   html {
