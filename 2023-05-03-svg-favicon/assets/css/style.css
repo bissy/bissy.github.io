@@ -8,6 +8,7 @@ html {
 
 body {
   padding: 0;
+  margin: 0;
   font-size: clamp(16px, 1rem + (1vw - 7.27px) * 0.8174, 13px);
   color: #222;
   font-feature-settings: "pwid";
